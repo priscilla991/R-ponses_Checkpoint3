@@ -26,7 +26,7 @@ Enfin, j’ai vérifié les permissions et le contenu du fichier pour m’assure
 
 ### Partie 3 : Analyse du stockage  
 ### Q.2.3.1
-Les systèmes de fichiers actuellement montés sont listés avec la commande :  
+Les systèmes de fichiers actuellement montés sont listés avec la commande **df -k**:  
 /dev/mapper/cp3--vg-root monté sur /  
 /dev/md0p1 monté sur /boot  et des systèmes temporaires en mémoire (tmpfs, udev) montés sur /dev, /run, /dev/shm, /run/lock et /run/user/0
 ![Capture d’écran du 2025-06-20 10-56-01](https://github.com/priscilla991/R-ponses_Checkpoint3/blob/main/Capture%20d%E2%80%99%C3%A9cran%20du%202025-06-20%2010-56-01.png)  
