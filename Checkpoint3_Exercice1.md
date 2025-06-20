@@ -16,7 +16,7 @@ Pour désactiver l'accès SSH au compte root, j’ai modifié le fichier **/etc/
 
 ### Q.2.2.2  
 Pour restreindre l’accès SSH à mon seul compte personnel, j’ai ajouté la directive **AllowUsers priscilla** dans le fichier **/etc/ssh/sshd_config**, ce qui limite l’accès distant à l’utilisateur spécifié uniquement.  
-![Capture d’écran du 2025-06-20 10-26-44](https://github.com/user-attachments/assets/89fe6eb7-d74c-4eb7-a0ec-55c488884725)
+![Capture d’écran du 2025-06-20 10-26-44](https://github.com/priscilla991/R-ponses_Checkpoint3/blob/main/Capture%20d%E2%80%99%C3%A9cran%20du%202025-06-20%2010-26-44.png)
 
 ### Q.2.2.3  
 J’ai généré une paire de clés SSH avec **ssh-keygen** directement sur le serveur SRVLX01.
