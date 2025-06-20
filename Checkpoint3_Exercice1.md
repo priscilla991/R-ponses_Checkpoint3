@@ -38,7 +38,7 @@ Le système principal utilise ext4 sur un volume LVM. Le répertoire /boot est s
 J’ai ajouté un nouveau disque de 8 Gio au serveur via l'interface graphique de VirtualBox au niveau du stockage (controleur SATA), créé une partition de type RAID avec **fdisk /dev/sdb**, puis je l’ai ajoutée au volume RAID **/dev/md0 avec mdadm --add /dev/md0 /dev/sdb1**. La reconstruction du RAID s’est lancée automatiquement et j'ai vérifié avec **cat /proc/mdstat**.
 
 ### Q.2.3.4
-![Capture d’écran du 2025-06-20 12-06-01](https://github.com/user-attachments/assets/6cb0be04-d173-4a92-a995-4d363f4f714d)
+![Capture d’écran du 2025-06-20 12-06-01](https://github.com/priscilla991/R-ponses_Checkpoint3/blob/main/Capture%20d%E2%80%99%C3%A9cran%20du%202025-06-20%2012-04-43.png)
 
 ### Q.2.3.5
 Il reste 6 Gio d’espace disponible dans le groupe de volume vg0, comme indiqué par la commande **vgdisplay**.
