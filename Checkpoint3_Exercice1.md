@@ -59,6 +59,7 @@ bareos-fd (File Daemon) : Installé sur les machines à sauvegarder, il envoie l
 J'ai verifié les règles Netfilter actuellement avec la commande **nft list ruleset**
 
 Le système utilise nftables et la politique par défaut est DROP.
+![Capture d’écran du 2025-06-20 12-06-01](https://github.com/priscilla991/R-ponses_Checkpoint3/blob/main/Capture%20d%E2%80%99%C3%A9cran%20du%202025-06-20%2012-26-00.png)
 
 ### Q.2.5.2
 les connexions établies ou relatives sont acceptées,
