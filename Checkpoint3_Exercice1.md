@@ -88,7 +88,8 @@ Pour permettre à Bareos de communiquer avec les clients sur le réseau local, j
 ### Partie 6 : Analyse de logs
 
 ### Q.2.6.1
-Pour lister les 10 derniers échecs de connexion SSH, j’ai utilisé la commande:
+Pour lister les 10 derniers échecs de connexion SSH, j’ai utilisé la commande: lastb
+![Capture d’écran du 2025-06-20 12-06-01](https://github.com/priscilla991/R-ponses_Checkpoint3/blob/main/Capture%20d%E2%80%99%C3%A9cran%20du%202025-06-20%2014-55-04.png)
 
 
 
