@@ -12,7 +12,7 @@ Je recommande d’utiliser un mot de passe fort pour ce compte, de ne pas l’aj
 ### Partie 2 : Configuration de SSH
 ### Q.2.2.1  
 Pour désactiver l'accès SSH au compte root, j’ai modifié le fichier **/etc/ssh/sshd_config** en décommentant la ligne **PermitRootLogin prohibit-password** et en remplacant la partie prohibit-password par **no**,pour obtenir **PermitRootLogin no** , puis j’ai redémarré le service SSH avec la commande **sudo systemctl restart sshd**.
-![Capture d’écran du 2025-06-20 10-21-16](https://github.com/user-attachments/assets/31c950a3-27a0-4aa5-b0f0-4a5eec1c67a4)
+![Capture d’écran du 2025-06-20 10-21-16](https://github.com/priscilla991/R-ponses_Checkpoint3/blob/main/Capture%20d%E2%80%99%C3%A9cran%20du%202025-06-20%2010-21-16.png)
 
 ### Q.2.2.2  
 Pour restreindre l’accès SSH à mon seul compte personnel, j’ai ajouté la directive **AllowUsers priscilla** dans le fichier **/etc/ssh/sshd_config**, ce qui limite l’accès distant à l’utilisateur spécifié uniquement.  
