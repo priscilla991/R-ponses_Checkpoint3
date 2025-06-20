@@ -22,7 +22,7 @@ Pour restreindre l’accès SSH à mon seul compte personnel, j’ai ajouté la 
 J’ai généré une paire de clés SSH avec **ssh-keygen** directement sur le serveur SRVLX01.
 Ensuite, j’ai copié la clé publique **(id_rsa.pub)** dans le fichier **~/.ssh/authorized_keys** pour autoriser l’authentification par clé.
 Enfin, j’ai vérifié les permissions et le contenu du fichier pour m’assurer que la configuration était correcte puis désactivé l’authentification par mot de passe dans **/etc/ssh/sshd_config** en mettant **PasswordAuthentication no**.  
-![Capture d’écran du 2025-06-20 10-50-27](https://github.com/priscilla991/R-ponses_Checkpoint3/blob/main/Capture%20d%E2%80%99%C3%A9cran%20du%202025-06-20%2010-31-52.png)
+![Capture d’écran du 2025-06-20 10-50-27](https://github.com/priscilla991/R-ponses_Checkpoint3/blob/main/Capture%20d%E2%80%99%C3%A9cran%20du%202025-06-20%2010-50-27.png)
 
 ### Partie 3 : Analyse du stockage  
 ### Q.2.3.1
